@@ -1,0 +1,67 @@
+        
+        body {
+            background-image: url("SoftUni-Background.png");
+			background-repeat: no-repeat;
+            background-color: #cccccc;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        li:before {
+            content: '\25A0';
+            display: block;
+            position: relative;
+            max-width: 0px;
+            max-height: 0px;
+            left: -20pt;
+            top: 10pt;
+            color: #f2b254;
+            font-size: 20px;
+        }
+		
+		.Title {
+            font-weight: bold;
+            font-size: 38pt;
+            font-family: calibri, headings;
+            color: #f3be60;
+        }
+		
+        .Paragraph {
+            font-size: 34pt;
+            font-family: calibri, body;
+            color: white;
+            font-weight: normal;
+        }
+
+        .reference {
+            font-family: consolas;
+            font-size: 34pt;
+            color: #f3cd60;
+            font-weight: bold;
+        }
+
+        .shape {
+            border: 1pt solid #c7bfac;
+            background-color: #20201e;
+            max-width: 88%;
+            position: relative;
+            left: 2%;
+        }
+
+        .text {
+            font-family: consolas;
+            font-size: 24pt;
+            font-weight: bold;
+            color: #fbeec9;
+        }
+
+        .pageNumbers {
+            position: relative;
+            right: -98%;
+            bottom: 1%;
+            font-family: calibri, body;
+            font-size: 10pt;
+            color: white;
+        }
