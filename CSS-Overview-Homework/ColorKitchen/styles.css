@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("colorful_dots_on_black.jpg");
+}
+
+body>header {
+    background: linear-gradient(to right,  red 0%,red 33%,green 33%,green 66%,blue 66%,blue 100%);
+    height: 60px;
+    font-family: Verdana,sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: yellow;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+    background-color: rgba(232,231,228,0.9);
+    font-family: Verdana,sans-serif;
+    font-size: 1.4rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10%;
+}
+
+aside header {
+    text-decoration: underline;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li:before {
+    content: url("tick.png");
+    position: relative;
+    top: 5px;
+}
+
+aside ul li {
+    text-indent: 0.7rem;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    position: relative;
+    left: -20%;
+}
+
+aside ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+aside nav ul li:first-child:hover {
+    background: red;
+    border-radius: 10px;
+}
+
+aside nav ul li:nth-child(2):hover {
+    background: #FF9F00;
+    border-radius: 10px;
+}
+
+aside nav ul li:nth-child(3):hover {
+    background: #FFFF25;
+    border-radius: 10px;
+}
+
+aside nav ul li:nth-child(4):hover {
+    background: #008022;
+    border-radius: 10px;
+}
+
+aside nav ul li:nth-child(5):hover {
+    background: #0005FD;
+    border-radius: 10px;
+}
+
+aside nav ul li:nth-child(6):hover {
+    background: #8E0075;
+    border-radius: 10px;
+}
+
+aside ul li a:visited {
+    color: grey;
+}
+
+section {
+    display: inline-block;
+    width: 68%;
+    padding-right: 20px;
+    position: relative;
+    left: 3%;
+    margin-top: 2%;
+}
+
+article {
+    display: block;
+    background-color: #E8E7E4;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 1.5%;
+    font-family: Verdana,sans-serif;
+}
+
+article>header {
+    border-radius: 10px;
+    height: 50px;
+    font-family: Verdana,sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+article header+:first-line {
+    font-style: italic;
+}
+
+article header+:first-letter {
+    font-style: italic;
+    font-size: 3rem;
+}
+
+article header#webColors+:first-letter {
+    font-style: italic;
+    font-size: 3rem;
+    padding-left: 10px;
+}
+
+article header#RGB+:first-letter {
+    font-style: italic;
+    font-size: 3rem;
+    padding-left: 10px;
+}
+
+article a {
+    color: grey;
+    font-style: italic;
+    font-family: Verdana,sans-serif;
+}
+
+article header#webColors {
+    background-color: red;
+    color: white;
+}
+
+article header#webSafeColors {
+    background-color: #FF9F00;
+    color: black;
+}
+
+article header#RGB {
+    background-color: #FFFF25;
+    color: black;
+}
+
+article header#RGBA {
+    background-color: #008022;
+    color: white;
+}
+
+article header#HSLHSV {
+    background-color: #0005FD;
+    color: white;
+}
+
+article header#lorem {
+    background-color: #8E0075;
+    color: white;
+}
+
+article span:lang(la):before {
+    content:open-quote;
+}
+article span:lang(la)::after {
+    content:close-quote;
+}
+
+article span:lang(la) {
+    font-family: Verdana,sans-serif;
+    font-style: italic;
+    color: blue;
+    quotes: "”" "”" "”" "”" ;
+}
+
+
+
+
+

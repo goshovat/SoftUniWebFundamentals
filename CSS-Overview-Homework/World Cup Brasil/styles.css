@@ -1,0 +1,189 @@
+div {
+    background-color: #00923E;
+    padding: 1%;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Verdana,sans-serif;
+    overflow: hidden;
+    border-spacing: 0;
+}
+
+table td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    height: 70px;
+}
+
+table thead {
+    background-color: #F8C711;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+table thead td:first-child {
+    border: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    height: 40px;
+}
+
+.right {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.bottom {
+    border: none;
+    border-right: 1px solid black;
+}
+
+.corner {
+    border: none;
+}
+
+.host {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.center {
+    text-align: center;
+}
+
+input[type=button] {
+    color:white;
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+    font-weight:bolder;
+}
+
+input[type=button]:disabled {
+background-color: red;
+}
+
+input[type=button]:enabled {
+    background-color: green;
+}
+
+.brasil {
+    background: url("brasil.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+.spain {
+    background: url("spain.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+.italy {
+    background: url("italy.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+.argentina {
+    background: url("argentina.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+.germany {
+    background: url("germany.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+.mexico {
+     background: url("mexico.png") no-repeat;
+     width: 30px;
+     height: 20px;
+     display: inline-block;
+     position: relative;
+     top: 12px;
+     left: 2px;
+ }
+
+.netherlands {
+    background: url("netherlands.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+.england {
+    background: url("england.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+.bosnia {
+    background: url("bosnia%20and%20herzegovina.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+.portugal {
+    background: url("portugal.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+.grey {
+    background: #C8C8C8;
+}
+
+select {
+    background-color: #E0DED9;
+    height: 45px;
+    width: 45px;
+    font-family: Verdana;
+    font-size: 1.4rem;
+    color: green;
+}
+
+select:disabled {
+    color: red;
+}
