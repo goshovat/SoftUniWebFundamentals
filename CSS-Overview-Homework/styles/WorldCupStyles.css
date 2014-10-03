@@ -71,8 +71,12 @@ input[type=button]:enabled {
     background-color: green;
 }
 
+input[type=button]:enabled:hover {
+    cursor: pointer;
+}
+
 .brasil {
-    background: url("brasil.png") no-repeat;
+    background: url("../images/brasil.png") no-repeat;
     width: 30px;
     height: 20px;
     display: inline-block;
@@ -82,7 +86,7 @@ input[type=button]:enabled {
 }
 
 .spain {
-    background: url("spain.png") no-repeat;
+    background: url("../images/spain.png") no-repeat;
     width: 30px;
     height: 20px;
     display: inline-block;
@@ -92,7 +96,7 @@ input[type=button]:enabled {
 }
 
 .italy {
-    background: url("italy.png") no-repeat;
+    background: url("../images/italy.png") no-repeat;
     width: 30px;
     height: 20px;
     display: inline-block;
@@ -102,7 +106,7 @@ input[type=button]:enabled {
 }
 
 .argentina {
-    background: url("argentina.png") no-repeat;
+    background: url("../images/argentina.png") no-repeat;
     width: 30px;
     height: 20px;
     display: inline-block;
@@ -112,7 +116,7 @@ input[type=button]:enabled {
 }
 
 .germany {
-    background: url("germany.png") no-repeat;
+    background: url("../images/germany.png") no-repeat;
     width: 30px;
     height: 20px;
     display: inline-block;
@@ -122,7 +126,7 @@ input[type=button]:enabled {
 }
 
 .mexico {
-     background: url("mexico.png") no-repeat;
+     background: url("../images/mexico.png") no-repeat;
      width: 30px;
      height: 20px;
      display: inline-block;
@@ -132,7 +136,7 @@ input[type=button]:enabled {
  }
 
 .netherlands {
-    background: url("netherlands.png") no-repeat;
+    background: url("../images/netherlands.png") no-repeat;
     width: 30px;
     height: 20px;
     display: inline-block;
@@ -142,7 +146,7 @@ input[type=button]:enabled {
 }
 
 .england {
-    background: url("england.png") no-repeat;
+    background: url("../images/england.png") no-repeat;
     width: 30px;
     height: 20px;
     display: inline-block;
@@ -152,7 +156,7 @@ input[type=button]:enabled {
 }
 
 .bosnia {
-    background: url("bosnia%20and%20herzegovina.png") no-repeat;
+    background: url("../images/bosnia%20and%20herzegovina.png") no-repeat;
     width: 30px;
     height: 20px;
     display: inline-block;
@@ -162,7 +166,7 @@ input[type=button]:enabled {
 }
 
 .portugal {
-    background: url("portugal.png") no-repeat;
+    background: url("../images/portugal.png") no-repeat;
     width: 30px;
     height: 20px;
     display: inline-block;
@@ -179,7 +183,7 @@ select {
     background-color: #E0DED9;
     height: 45px;
     width: 45px;
-    font-family: Verdana;
+    font-family: Verdana,sans-serif;
     font-size: 1.4rem;
     color: green;
 }

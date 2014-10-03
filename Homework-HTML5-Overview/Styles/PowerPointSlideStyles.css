@@ -1,8 +1,6 @@
         
         body {
-            background-image: url("SoftUni-Background.png");
-			background-repeat: no-repeat;
-            background-color: #cccccc;
+            background: url("../images/SoftUni-Background.png") repeat-x;
         }
 
         li {
@@ -13,8 +11,8 @@
             content: '\25A0';
             display: block;
             position: relative;
-            max-width: 0px;
-            max-height: 0px;
+            max-width: 0;
+            max-height: 0;
             left: -20pt;
             top: 10pt;
             color: #f2b254;
@@ -24,19 +22,19 @@
 		.Title {
             font-weight: bold;
             font-size: 38pt;
-            font-family: calibri, headings;
+            font-family: calibri, headings,sans-serif;
             color: #f3be60;
         }
 		
         .Paragraph {
             font-size: 34pt;
-            font-family: calibri, body;
+            font-family: calibri, body,sans-serif;
             color: white;
             font-weight: normal;
         }
 
         .reference {
-            font-family: consolas;
+            font-family: consolas,sans-serif;
             font-size: 34pt;
             color: #f3cd60;
             font-weight: bold;
@@ -51,7 +49,7 @@
         }
 
         .text {
-            font-family: consolas;
+            font-family: consolas,sans-serif;
             font-size: 24pt;
             font-weight: bold;
             color: #fbeec9;
@@ -61,7 +59,7 @@
             position: relative;
             right: -98%;
             bottom: 1%;
-            font-family: calibri, body;
+            font-family: calibri, body,sans-serif;
             font-size: 10pt;
             color: white;
         }

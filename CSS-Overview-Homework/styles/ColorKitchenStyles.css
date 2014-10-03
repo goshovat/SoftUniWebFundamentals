@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("colorful_dots_on_black.jpg");
+    background-image: url("../images/colorful_dots_on_black.jpg");
 }
 
 body>header {
@@ -36,7 +36,7 @@ aside ul {
 }
 
 aside ul li:before {
-    content: url("tick.png");
+    content: url("../images/tick.png");
     position: relative;
     top: 5px;
 }
