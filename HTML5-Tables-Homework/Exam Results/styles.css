@@ -1,0 +1,28 @@
+table {
+    border: 1px solid black;
+    font-family: Verdana, sans-serif;
+}
+
+td {
+    border: 1px solid black;
+    height: 30px;
+}
+
+thead {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+tbody>tr:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+tfoot {
+    text-align: right;
+}
+
+table tbody tr td:first-child {
+    width: 40px;
+}

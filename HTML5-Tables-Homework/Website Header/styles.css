@@ -1,0 +1,58 @@
+table {
+    background-color: #234465;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+input[type="text"].searchInput{
+    float: left;
+    border: 0;
+    vertical-align: top;
+    height: 30px;
+    width: 220px;
+    color: #367CAE;
+    background-color: white;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    text-indent: 0.5rem;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+button[type="submit"].searchButton{
+    float:right;
+    width:32px;
+    height:32px;
+    vertical-align:top;
+    border:0;
+    border-left:1px solid #d5d5d5;
+    background: url(https://softuni.bg/Content/design/magn-glass-icon17.png) 7px no-repeat white;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    display: inline-block;
+
+}
+button[type="submit"].searchButton:hover{
+    background: url(https://softuni.bg/Content/design/magn-glass-icon17.png) no-repeat #367cae 7px;
+}
+
+td {
+    color: white;
+}
+
+.logo {
+    text-align: left;
+    text-indent: 2rem;
+}
+
+.search {
+    width: 252px;
+}
+
+select {
+    background-color: #234465;
+    border: none;
+    color: white;
+}
+
+

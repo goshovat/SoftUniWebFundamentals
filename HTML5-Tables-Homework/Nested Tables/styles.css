@@ -1,0 +1,35 @@
+img {
+    width: 160px;
+    height: 160px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+table table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body>table {
+    height: 200px;
+}
+
+.img {
+    width: 180px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    width: 320px;
+}
+
+table table td {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 280px;
+    height: 80px;
+}

@@ -1,0 +1,31 @@
+table {
+    border: 1px solid #BFBFBF;
+    width: 410px;
+    height: 240px;
+    font-family: Verdana, sans-serif;
+}
+
+img {
+    width: 160px;
+    height: 160px;
+    vertical-align: bottom;
+}
+
+.bold {
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+.other {
+    vertical-align: top;
+}
+
+thead {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+tbody td {
+    position: relative;
+    top: 15px;
+}
