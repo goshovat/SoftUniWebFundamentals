@@ -1,53 +1,59 @@
+body {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
 .face {
-    width: 480px;
-    height:480px;
+    width: 490px;
+    height:490px;
     border-radius: 100%;
     background-color: yellow;
     border: 3px solid black;
 }
 
 .left-eye {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     background-color: white;
     border-radius: 100%;
-    position: relative;
-    top: 80px;
-    left: 90px;
+    position: absolute;
+    top: 95px;
+    left: 100px;
     border: 3px solid black;
 }
 
 .right-eye {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     background-color: white;
     border-radius: 100%;
-    position: relative;
-    left: 280px;
+    position: absolute;
+    left: 300px;
     border: 3px solid black;
-    top: -15px;
+    top: 95px;
 }
 
 .nose {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     background-color: red;
-    position: relative;
+    position: absolute;
     border-radius: 100%;
     border: 3px solid black;
-    left: 195px;
-    top: -5px;
+    left: 210px;
+    top: 205px;
 }
 
 .mouth {
-    height: 90px;
-    width: 230px;
+    height: 100px;
+    width: 250px;
     border-radius: 50px;
     background-color: white;
-    position: relative;
-    left: 113px;
+    position: absolute;
+    left: 125px;
     border: 3px solid black;
-    top: 15px;
+    top: 305px;
 }
 
 .left-eye-dot {
@@ -55,9 +61,9 @@
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    position: relative;
-    top: 47px;
-    left: 47px;
+    position: absolute;
+    top: 55px;
+    left: 55px;
 }
 
 .right-eye-dot {
@@ -65,30 +71,29 @@
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .left-tooth{
-    width: 40px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     background-color: white;
     border:3px solid black;
     border-top: none;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
-    position: relative;
+    position: absolute;
     left: 70px;
 }
 
 .right-tooth{
-    width: 40px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     background-color: white;
     border:3px solid black;
     border-top: none;
     border-bottom-left-radius: 25%;
     border-bottom-right-radius: 25%;
-    position: relative;
-    left: 115px;
-    top: -48px;
+    position: absolute;
+    left: 125px;
 }

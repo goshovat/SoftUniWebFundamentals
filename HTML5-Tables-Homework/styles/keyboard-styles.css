@@ -1,0 +1,50 @@
+table {
+    border: 1px solid black;
+}
+
+body > table > tbody > tr > td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+body > table > thead > tr > th {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+form {
+    width: 99%;
+    height: 98%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+input[type=submit] {
+    width: 98%;
+    height: 98%;
+    color: blue;
+    border-radius: 5px;
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(to bottom, #ededed 50%, #dddddd 50%, #d4d4d4 100%);
+    vertical-align: middle;
+    text-align: center;
+}
+
+.inner td {
+    height: 50px;
+    width: 95px;
+}
+
+th input[type=submit] {
+    font-size: 1.7rem;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+}
+
+input[type=submit].beer {
+    font-size: 1.2rem;
+    text-align: right;
+}
