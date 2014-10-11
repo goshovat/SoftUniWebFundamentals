@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 0.8rem;
+    color: #111;
+}
+
+div.container {
+    width: 403px;
+    height: 675px;
+    background: url("../images/formBackground.jpg");
+    border-radius: 2px;
+}
+
+img {
+    position: relative;
+    top: 2px;
+}
+
+input[type="text"] {
+    width: 190px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+    color: #A9A9A9;
+    text-indent: 5px;
+    margin-top: 8px;
+    position: absolute;
+    left: 125px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #04152F;
+    color: white;
+    border: none;
+    margin-left: 150px;
+}
+
+input[type="radio"] {
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+textarea {
+    margin-left: 45px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset:first-of-type {
+    width: 360px;
+    height: 143px;
+    padding-top: 19px;
+}
+
+fieldset:nth-of-type(2) {
+    width: 360px;
+    height: 210px;
+    padding-top: 13px;
+}
+
+fieldset:nth-of-type(3) {
+    width: 360px;
+    height: 210px;
+    padding-top: 14px;
+}
+
+.heading {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.field {
+    width: 360px;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid #C8D5E5;
+    margin-bottom: 2px;
+    text-align: left;
+    text-indent: 5px;
+    background-color: rgba(192, 192, 192, 0.4);
+}
+
+.field.card {
+    height: 66px;
+}
+
+.field.address {
+    height: 105px;
+}
+
+.field.address label {
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+label {
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.radio-heading {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}

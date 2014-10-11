@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="styles/form-styles.css"/>
+</head>
+<body>
+<div class="container">
+    <form method="post" action="Form.html">
+        <fieldset class="first">
+            <div class="heading">Step 1: Your details</div>
+            <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" value="First and last name"/>
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="text" id="email" value="example@domain.com"/>
+            </div>
+            <div class="field">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" value="eg. +447500000000"/>
+            </div>
+        </fieldset>
+        <fieldset class="second">
+            <div class="heading">Step 2: Delivery Address</div>
+            <div class="field address">
+                <label for="address">Address</label>
+                <textarea name="address" id="address" cols="25" rows="6"></textarea>
+            </div>
+            <div class="field">
+                <label for="post-code">Post code</label>
+                <input type="text" id="post-code"/>
+            </div>
+            <div class="field">
+                <label for="country">Country</label>
+                <input type="text" id="country"/>
+            </div>
+        </fieldset>
+        <fieldset class="third">
+            <div class="heading">Step 3: Card details</div>
+            <div class="field card">
+                <div class="radio-heading">Card type</div>
+                <input type="radio" id="card-type1" name="card-number" value="visa"/>
+                <label for="card-type1"><img src="images/visa.png" alt="visa"/>VISA</label>
+                <input type="radio" id="card-type2" name="card-number" value="am-ex"/>
+                <label for="card-type2"><img src="images/am-ex.png" alt="am-ex"/>AmEx</label>
+                <input type="radio" id="card-type3" name="card-number" value="master"/>
+                <label for="card-type3"><img src="images/master.png" alt="mastercard"/>Mastercard</label>
+            </div>
+            <div class="field">
+                <label for="card-number">Card number</label>
+                <input type="text" id="card-number"/>
+            </div>
+            <div class="field">
+                <label for="security-code">Security code</label>
+                <input type="text" id="security-code"/>
+            </div>
+            <div class="field">
+                <label for="name-on-card">Name on card</label>
+                <input type="text" id="name-on-card" value="exact name on card"/>
+            </div>
+        </fieldset>
+        <input type="submit" value="BUY IT!"/>
+    </form>
+</div>
+</body>
+</html>

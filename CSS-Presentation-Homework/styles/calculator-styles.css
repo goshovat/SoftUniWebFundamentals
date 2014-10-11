@@ -26,7 +26,7 @@ table.bin {
     height: 400px;
     padding: 1% 10px 10px 10px;
     border-radius: 3px;
-    font-family: consolas,sans-serif;
+    font-family: consolas, sans-serif;
 }
 
 .close {
@@ -49,7 +49,6 @@ table.bin {
 .work-area {
     width: 398px;
     height: 335px;
-    border: 1px solid #8194A3;
     padding: 10px;
     border-radius: 3px;
 }
@@ -57,7 +56,7 @@ table.bin {
 .calculation {
     width: 395px;
     height: 50px;
-    background-color: #FDFEFF;
+    background:linear-gradient(#E6EFFB, #FFFFFF);
     border-radius: 2px;
     text-align: right;
     border: 1px solid #8194A3;
@@ -116,13 +115,21 @@ input[type="radio"]:checked {
     border-radius: 100%;
 }
 
+.button.muted {
+    background: #D9E4F1;
+}
+
+.button.loud {
+    background:linear-gradient(#F7FBFF 0%, #EDF3F8 49%, #E7EDF5 50%, #F3FBFF 100%);
+}
+
 .button {
-    display: inline-block;
-    width: 29px;
-    height: 25px;
-    border: 1px solid #8194A3;
-    padding: 0;
-    margin: 0;
+    background:linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+}
+
+.button:hover {
+    background:linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+    cursor: pointer;
 }
 
 table.buttons td {
@@ -141,3 +148,4 @@ table.buttons td {
     border-radius: 3px;
     color: #0E3D6E;
 }
+
