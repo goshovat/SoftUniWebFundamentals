@@ -1,0 +1,87 @@
+.container {
+    width: 539px;
+    height: 385px;
+    box-sizing: border-box;
+    background-color: #FFC0CB;
+    font-style: italic;
+    overflow: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.left, .right {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left {
+    padding-left: 13px;
+    width: 268px;
+}
+
+label, input, select {
+    display: block;
+    box-sizing: border-box;
+    padding-bottom: 9px;
+}
+
+.age label, .age input {
+    display: inline-block;
+}
+
+select {
+    width: 250px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input[type="date"] {
+    width: 255px;
+    height: 34px;
+    box-sizing: border-box;
+    margin-bottom: 9px;
+}
+
+input[type="number"] {
+    width: 82px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+label[for="children"] {
+    padding-left: 57px;
+    padding-right: 50px;
+}
+
+input[type="checkbox"], input[type="time"], label[for="directs"] {
+    display: inline-block;
+}
+
+input[type="checkbox"],label[for="directs"] {
+    margin: 0;
+    padding: 0;
+}
+
+input[type="time"] {
+    width: 125px;
+    height: 34px;
+    margin-bottom: 9px;
+}
+
+input[type="submit"] {
+    width: 250px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-top: 6px;
+}
+

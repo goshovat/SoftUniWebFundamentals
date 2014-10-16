@@ -1,0 +1,12 @@
+img:first-of-type {
+    display: block;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+input[type="search"] {
+    width: 153px;
+    height: 30px;
+}

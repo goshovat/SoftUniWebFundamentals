@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.container {
+    width: 775px;
+    height: 422px;
+    background-color: #EEEEEE;
+    overflow: auto;
+    text-align: center;
+}
+
+.register {
+    width: 370px;
+    height: 297px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.login {
+    width: 370px;
+    height: 305px;
+    display: inline-block;
+    text-align: center;
+    background-color: #234465;
+    vertical-align: top;
+}
+
+h2 {
+    margin: 15px;
+    color: #234465;
+    text-align: left;
+}
+
+div.register h4 {
+    color: #666666;
+    text-transform: uppercase;
+    text-align: left;
+    margin:  0 0 14px 14px;
+}
+
+div.register h4 span {
+    color: #234465;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+div.login h4 {
+    color: #ffffff;
+    text-align: left;
+    margin: 14px;
+    text-transform: uppercase;
+}
+
+p {
+    text-indent: 15px;
+    color: #5A5A5A;
+    text-align: left;
+}
+
+input[type="text"] {
+    height: 41px;
+    width: 340px;
+    line-height: 17px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 14px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    text-indent: 11px;
+    color: #999999;
+}
+
+input[type="password"]::-webkit-input-placeholder {
+    text-indent: 11px;
+    color: #999999;
+}
+
+input[type="password"] {
+    height: 41px;
+    width: 340px;
+    line-height: 17px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 14px;
+}
+
+label {
+    float: left;
+    color: #ffffff;
+    vertical-align: top;
+    font-size: 0.8rem;
+}
+
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    border-radius: 1px;
+    border: 1px solid #A7A7A7;
+    float: left;
+    margin-left: 14px;
+}
+
+.login-button {
+    float: right;
+    margin-right: 14px;
+    vertical-align: top;
+    width: 136px;
+    height: 36px;
+    border: 2px solid #FF9C00;
+    background-color: #234465;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.register-button {
+    float: right;
+    margin-right: 14px;
+    vertical-align: top;
+    width: 136px;
+    height: 36px;
+    border: 2px solid #234465;
+    background-color: #EEEEEE;
+    color: #234465;
+    font-size: 1.1rem;
+}
+
+a {
+    float: right;
+    color: #ffffff;
+    padding-right: 22px;
+    font-size: 0.9rem;
+}
