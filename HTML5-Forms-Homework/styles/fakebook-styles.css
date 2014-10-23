@@ -72,6 +72,16 @@ input[type="text"] {
     border: none;
 }
 
+input[type="email"] {
+    width: 137px;
+    height: 29px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 9px;
+    color: #B1A9BB;
+    border: none;
+}
+
 input[type="password"] {
     width: 137px;
     height: 29px;

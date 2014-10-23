@@ -1,0 +1,132 @@
+body, section, article, div, ul, h5 {
+    margin: 0;
+    padding: 0;
+    font-family: PT Sans, Tahoma, sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 705px;
+    background-color: #EEEEEE;
+}
+
+div.header {
+    width: 100%;
+    height: 92px;
+    background: url("../images/header-background.jpg");
+}
+
+.btn-success:hover {
+    background: #d35400;
+}
+
+.btn {
+    background-color: #FF9C00;
+    float: right;
+    position: relative;
+    top: 36px;
+    right: 118px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 43px 0 0 118px;
+    color: #234494;
+}
+
+h5 {
+    color: #234494;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding-bottom: 35px;
+}
+
+h5.two-lines {
+    padding-bottom: 19px;
+}
+
+article {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 35px;
+    width: 350px;
+    height: 415px;
+    background-color: #ffffff;
+    margin: 30px;
+}
+
+article:first-of-type {
+    margin-left: 118px;
+}
+
+div.date {
+    display: block;
+    float: right;
+    font-style: italic;
+}
+
+div.published {
+    color: #7E5A5A;
+    margin-top: 5px;
+}
+
+p {
+    color: #7E5A5A;
+    font-size: 0.9rem;
+}
+
+p.one-line {
+    padding-bottom: 16px;
+}
+
+p.tags {
+    width: 280px;
+    bottom: 35px;
+    font-size: 0.7rem;
+    position: absolute;
+}
+
+p.tags strong {
+    font-size: 0.75rem;
+   font-weight: bold;
+    color: #000000;
+}
+
+div.pages {
+    margin-left: 118px;
+    display: inline-block;
+    width: 220px;
+    height: 34px;
+    background-color: #ffffff;
+}
+
+ul li {
+    display: inline-block;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    color: white;
+    background-color: #4CA0DB;
+    text-align: center;
+    line-height: 32px;
+}
+
+ul li.current {
+    background-color: #FF9C00;
+}

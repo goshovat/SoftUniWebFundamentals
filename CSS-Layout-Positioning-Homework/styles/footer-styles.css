@@ -1,0 +1,95 @@
+body, footer {
+    margin: 0;
+    padding: 0;
+    font-family: PT Sans, Tahoma, sans-serif;
+}
+
+header, section.filler {
+    text-align: center;
+    font-size: 10rem;
+    height: 400px;
+}
+
+footer {
+    width: 100%;
+    height: 284px;
+    background-color: #234465;
+}
+
+footer section {
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+footer section:first-of-type {
+    width: 21.46%;
+}
+
+footer section:nth-of-type(2) {
+    width: 13.64%;
+}
+
+footer section:nth-of-type(3) {
+    width: 12.8%;
+}
+footer section:nth-of-type(4) {
+    width: 23.37%;
+}
+footer section:nth-of-type(5) {
+    width: 26%;
+}
+
+a.apply, a.fast-track {
+    float: right;
+    display: block;
+    border: 2px solid #ff9c00;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 10px 0;
+    padding-top: 15px;
+    text-align: center;
+    position: relative;
+    top: 55px;
+    width: 156px;
+    height: 35px;
+}
+
+ul {
+    list-style: none;
+    padding: 0 0 0 24px;
+}
+
+ul li {
+    color: #ffffff;
+    padding-bottom: 14px;
+    font-size: 0.8rem;
+}
+
+ul li.list-header {
+    text-transform: uppercase;
+    color: #FF9C00;
+    font-weight: bold;
+}
+
+ul li.inline {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 1px;
+    padding: 0;
+}
+
+.fb-like-box {
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+    top: 35px;
+    left: 45px;
+    background-color: #E9ECEF;
+    padding: 2px 2px 13px 2px
+}
+

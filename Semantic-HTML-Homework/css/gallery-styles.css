@@ -1,0 +1,56 @@
+body, div, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Container*/
+div.container {
+    margin: 0 auto;
+    width: 510px;
+    height: 225px;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    overflow: auto;
+    font-family: PT Sans, Tahoma, sans-serif;
+    position: relative;
+}
+
+/*Heading*/
+h1 {
+    color: yellow;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+
+/*Menu*/
+ul.right {
+    vertical-align: top;
+    display: block;
+    float: right;
+    list-style: none;
+}
+
+ul.right li {
+    display: block;
+    margin-right: 20px;
+    text-align: left;
+}
+
+ul.right li a {
+    color: white;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/*Iframe*/
+iframe {
+    margin: 10px 0 0 20px;
+    float: left;
+    display: inline-block;
+    width: 180px;
+    height: 135px;
+    border: 1px solid yellow;
+}

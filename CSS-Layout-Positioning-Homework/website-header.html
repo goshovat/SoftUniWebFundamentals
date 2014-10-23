@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Website Header</title>
+    <link rel="stylesheet" href="styles/header-styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <a href="https://softuni.bg/"><img src="https://softuni.bg/Content/design/logo.png" alt="SoftUni Logo"/></a>
+    <div id="search" class="searchBar">
+        <form id="search-form" method="GET" autocomplete="off">
+            <input type="text" maxlength="100" placeholder="Search..." name="query" class="searchInput">
+            <button type="submit" class="searchButton"></button>
+        </form>
+    </div>
+        <ul class="notificationsTab">
+            <li id="notifications-tab">
+                <a id="notifications" href="#"><span class="unread-notifications-count">0</span><span
+                        class="notifications"></span></a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">USER
+                    <strong class="caret"></strong>
+                </a>
+                <ul class="dropdown-menu userDropdown" id="dropdownAdmin">
+                    <li><a class="custom-dropdown-header" href="#" title="Profile">Потребителски панел</a></li>
+                    <li><a href="#" title="Manage">Управление на акаунта</a></li>
+                    <li><a href="#">Редактиране на профила</a></li>
+                    <li><a href="#">Екипна работа</a></li>
+                    <li><a href="#">График на учебната зала</a></li>
+                    <li><a href="#">Сертификати</a></li>
+                    <li><a href="#">Заплащане</a></li>
+                    <li><a href="#">Sentinel клиент</a></li>
+                    <li><a href="#">Изход</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    <ul class="navbar">
+        <li><a href="#">contacts</a></li>
+        <li><a href="#">forum</a></li>
+        <li><a href="#">For companies</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Training courses
+                <strong class="caret"></strong>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="custom-dropdown-header" href="#">Курсове</a></li>
+                <li><a href="#">Java Basics септември 2014</a></li>
+                <li><a href="#">C# Basics септември 2014</a></li>
+                <li><a href="#">Web Fundamentals (HTML + CSS) септ.
+                    2014</a></li>
+                <li><a href="#">Teamwork and Personal Skills септ.
+                    2014</a></li>
+                <li><a href="#">ООП септември 2014</a></li>
+                <li><a href="#">Качествен програмен код септември 2014</a>
+                </li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                About the university
+                <strong class="caret"></strong>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="custom-dropdown-header" href="#">За нас</a></li>
+                <li><a href="#">Професии</a></li>
+                <li><a href="#">Планове</a></li>
+                <li><a href="#">Специалности</a></li>
+                <li><a href="#">Преподаватели</a></li>
+                <li><a href="#">Финансиране</a></li>
+                <li><a href="#">Кандидатстване</a></li>
+            </ul>
+        </li>
+        <li><a href="#">News</a></li>
+    </ul>
+</header>
+</body>
+</html>

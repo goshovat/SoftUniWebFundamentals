@@ -1,0 +1,238 @@
+body, div, header, footer, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: PT Sans, Tahoma, sans-serif;
+}
+
+/*Header*/
+header {
+    width: 95%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+
+/*Main Heading*/
+header > h1 {
+    display: block;
+    vertical-align: top;
+}
+
+/*Menu*/
+header > nav.menu {
+    display: inline-block;
+    width: 95%;
+}
+
+header > nav.menu > ul {
+    display: inline-block;
+}
+
+header > nav.menu > ul li {
+    display: inline-block;
+    width: 100px;
+}
+
+header > nav.menu > ul > li > a {
+    color: #777777;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Search*/
+header > nav > div.search-container {
+    display: inline-block;
+    margin-top: 8px;
+    float: right;
+}
+
+header > nav > div.search-container > form > input[type="text"] {
+    margin: 0;
+    padding: 0;
+    width: 184px;
+    height: 25px;
+    border: 1px solid #E9E9E9;
+    border-right: 0;
+    background-color: #F7F7F7;
+}
+
+header > nav > div.search-container > form > input[type="image"] {
+    background: transparent;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #E9E9E9;
+    border-left: none;
+}
+
+/*Main*/
+main {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*Left menu*/
+main>aside.left {
+    display: inline-block;
+    width: 12%;
+    vertical-align: top;
+    float: left;
+    margin: 7% 2% 2% 2%;
+}
+
+main>aside.left>ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main>aside.left>ul>li {
+    padding-bottom: 10px;
+}
+
+main>aside.left>ul>li>a {
+    text-decoration: none;
+    color: #225E9B;
+}
+
+/*Main content*/
+main>section.content {
+    display: inline-block;
+    width: 60%;
+    margin: 2%;
+}
+
+main>section.content>article>h2>a, main>section.content>article>footer>a {
+    text-decoration: none;
+    color: black;
+}
+
+a.blue {
+    color: #225E9B;
+    text-decoration: none;
+}
+
+/*Right menu*/
+main>aside.right {
+    display: inline-block;
+    width: 12%;
+    margin: 7% 2% 2% 2%;
+    vertical-align: top;
+    color: #C0AFAF;
+    font-size: 0.8rem;
+}
+
+main>aside.right>form>h2 {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+main>aside.right>form>select {
+    margin-top: 10px;
+}
+
+/*Footer*/
+footer.page-footer {
+    background-color: black;
+    color: white;
+}
+
+footer.page-footer>section.twitter {
+    display: block;
+    background-color: #F7F7F7;
+    color: #777777;
+    text-indent: 3rem;
+    line-height: 46px;
+}
+
+footer.page-footer>section.name {
+    display: inline-block;
+    width: 135px;
+    vertical-align: top;
+    margin: 25px 60px 0 35px;
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+footer.page-footer>nav.pages {
+    display: inline-block;
+    width: 120px;
+    vertical-align: top;
+    margin: 25px 110px 0 0;
+    font-size: 0.8rem;
+}
+
+footer.page-footer>nav.pages>ul {
+    list-style: none;
+}
+
+footer.page-footer>nav.pages>ul>li {
+    margin: 10px 0 0 5px;
+}
+
+footer.page-footer>nav.pages>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer.page-footer>section.latest {
+    display: inline-block;
+    width: 160px;
+    vertical-align: top;
+    font-size: 0.6rem;
+    margin: 25px 40px 0 0;
+}
+
+footer.page-footer>section.latest>h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+footer.page-footer>section.latest>h2>a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+footer.page-footer>section.latest>p {
+    font-size: 0.8rem;
+    color: #999999;
+}
+
+footer.page-footer>section.more {
+    display: inline-block;
+    width: 170px;
+    vertical-align: top;
+    margin: 25px 30px 0 0;
+    font-size: 0.9rem;
+    color: #999999;
+}
+
+footer.page-footer>section.more>h2 {
+    color: white;
+    font-size: 1rem;
+}
+
+footer.page-footer>section.more>p>a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+footer.page-footer>section.copyright {
+    display: inline-block;
+    width: 140px;
+    vertical-align: top;
+    margin-top: 25px;
+    font-size: 0.5rem;
+    color: #999999;
+}
+

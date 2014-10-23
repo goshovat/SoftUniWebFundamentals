@@ -32,6 +32,7 @@ label, input, select {
     display: block;
     box-sizing: border-box;
     padding-bottom: 9px;
+	vertical-align: middle;
 }
 
 .age label, .age input {
