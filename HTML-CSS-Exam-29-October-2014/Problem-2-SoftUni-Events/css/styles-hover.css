@@ -1,0 +1,37 @@
+/*Main heading Hover*/
+header > h1:hover {
+    color: #FF9C00;
+    cursor: pointer;
+}
+
+/*img hover*/
+img:hover {
+    cursor: pointer;
+}
+
+/*Bottom nav hover*/
+nav > ul.menu > li:hover {
+    background-color: #FF9C00;
+    color: #234465;
+    cursor: pointer;
+}
+
+/*Nav top normal hover*/
+body >nav.top > ul.menu > li:hover {
+    background-color: #234465;
+    color: #FF9C00;
+    cursor: pointer;
+}
+
+/*Nav top special hover*/
+nav.top > ul.menu > li:nth-of-type(2):hover {
+    background-color: white;
+    color: #FF9C00;
+    cursor: pointer;
+}
+
+/*Footer hover*/
+footer>p:hover {
+    color: #FF9C00;
+    cursor: pointer;
+}

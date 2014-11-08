@@ -1,0 +1,173 @@
+body {
+    background: #BAB9B9;
+}
+
+div#wrapper {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+div#wrapper section {
+    background-color: lightgray;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+#wrapper section div.shake,#wrapper section div.shake-left,#wrapper section div.shake-right {
+    float: left;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 32.33%;
+    height: 110px;
+    margin: 0.5%;
+}
+
+div#wrapper section img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@-webkit-keyframes shake {
+    0% {
+        -webkit-transform: translate(2px, 1px) rotate(0deg);
+    }
+
+    10% {
+        -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        -webkit-transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        -webkit-transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    40% {
+        -webkit-transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        -webkit-transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        -webkit-transform: translate(2px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        -webkit-transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        -webkit-transform: translate(2px, 2px) rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+@-webkit-keyframes RotateImage {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    25% {
+        -webkit-transform: translate(-40px, 100px) rotate(0deg);
+        width: 280px;
+        height: 230px;
+    }
+
+    50% {
+        -webkit-transform: translate(-60px, 100px) rotate(720deg);
+        width: 380px;
+        height: 330px;
+    }
+
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+
+@-webkit-keyframes RotateImageLeft {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    25% {
+        -webkit-transform: translate(190px, 100px) rotate(0deg);
+        width: 280px;
+        height: 230px;
+    }
+
+    50% {
+        -webkit-transform: translate(200px, 100px) rotate(720deg);
+        width: 380px;
+        height: 330px;
+    }
+
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+
+@-webkit-keyframes RotateImageRight {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    25% {
+        -webkit-transform: translate(-240px, 100px) rotate(0deg);
+        width: 280px;
+        height: 230px;
+    }
+
+    50% {
+        -webkit-transform: translate(-260px, 100px) rotate(720deg);
+        width: 380px;
+        height: 330px;
+    }
+
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+
+#wrapper section div:hover {
+    background-size: cover;
+    -webkit-animation-name: shake;
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 1.0s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-iteration-count: initial;
+    -webkit-animation-timing-function: linear;
+}
+
+#wrapper section div.shake img:focus {
+    -webkit-animation-name: RotateImage;
+    -webkit-animation-duration: 5.2s;
+    -webkit-animation-timing-function: ease;
+}
+
+#wrapper section div.shake-left img:focus {
+    -webkit-animation-name: RotateImageLeft;
+    -webkit-animation-duration: 5.2s;
+    -webkit-animation-timing-function: ease;
+}
+
+#wrapper section div.shake-right img:focus {
+    -webkit-animation-name: RotateImageRight;
+    -webkit-animation-duration: 5.2s;
+    -webkit-animation-timing-function: ease;
+}

@@ -1,0 +1,73 @@
+/*Font*/
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+/*Reset margins as needed*/
+body, main, section, article, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: OpenSans, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+main, section {
+    width: 100%;
+}
+
+/*Main heading*/
+body > main > section > h1 {
+    font-family: OpenSans-ExtraBold, Helvetica, sans-serif;
+    color: #009288;
+    text-align: center;
+    font-size: 56px;
+    padding: 0;
+}
+
+body > main > section > article.heading > p {
+    display: block;
+    text-align: center;
+    color: #7F8293;
+}
+
+body > main > section > article.heading > p:first-of-type {
+    font-size: 32px;
+}
+
+body > main > section > article.heading > p:nth-of-type(2) {
+    font-size: 16px;
+}
+
+/*Column heading*/
+h2 {
+    font-size: 16px;
+    color: #7F8287;
+}
+
+ul.menu {
+    list-style: none;
+    color: #908293;
+}
+
+ul.menu > li {
+    padding: 1.2%;
+    line-height: 2rem;
+    display: inline-block;
+    width: 220px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*Hover Effect*/
+ul.menu > li:hover {
+    background-color: #F6F6F5;
+    border-left: 15px solid #009288;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

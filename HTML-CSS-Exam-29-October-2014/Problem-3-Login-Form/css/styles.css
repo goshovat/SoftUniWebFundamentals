@@ -1,0 +1,174 @@
+@font-face {
+    font-family: glyphicons-halflings-regular;
+    src: url(../fonts/glyphicons-halflings-regular.ttf);
+}
+
+body, div, header, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/background.png") repeat-y;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Container*/
+div.wrapper {
+    width: 750px;
+    height: 320px;
+    margin: 30px auto;
+    background-color: #333333;
+    overflow: auto;
+}
+
+/*Heading*/
+div.wrapper > header {
+    display: block;
+    width: 700px;
+    height: 36px;
+    margin: 38px auto 10px auto;
+    background-color: #679966;
+}
+
+div.wrapper > header > h1 {
+    line-height: 36px;
+    color: #D7E5EE;
+    font-size: 25px;
+    font-family: Lobster, sans-serif;
+    text-align: center;
+}
+
+/*Advertisement*/
+div.advertisement, div.login {
+    float: left;
+    display: inline-block;
+    width: 350px;
+    height: 215px;
+}
+
+div.advertisement {
+    margin-left: 25px;
+    background-color: #232323;
+}
+
+div.advertisement>div.menu>ul {
+    list-style: none;
+    text-align: center;
+    color: #EEEEEE;
+    margin-top: 10px;
+}
+
+/*Fire*/
+div.fire {
+    height: 50%;
+    width: 100%;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+div.fire:before {
+    font-family: glyphicons-halflings-regular, sans-serif;
+    font-size: 4rem;
+    content: "\e104";
+    margin-left: 40%;
+    line-height: 100px;
+    color: #EEEEEE;
+}
+
+/*Menu*/
+div.advertisement>div.menu>ul>li {
+    margin-top: 10px;
+}
+
+div.advertisement>div.menu>ul>li>a {
+    color: inherit;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+div.advertisement>div.menu>ul>li:before {
+    font-family: glyphicons-halflings-regular, sans-serif;
+    content: "\e089";
+}
+
+/*Form*/
+form {
+    text-align: center;
+}
+
+/*Form Heading*/
+form>header {
+    color: #D7E5E2;
+}
+
+form>header>h3 {
+    margin-top: 0;
+}
+
+form>input[type="text"] {
+    margin: 0 auto 20px auto;
+    width: 84.2%;
+    height: 31px;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+/*Placeholder indentation*/
+form>input[type="text"]::-webkit-input-placeholder {
+    text-indent: 10px;
+}
+
+/*Username Glyph*/
+label[for="username"]:before {
+    font-family: glyphicons-halflings-regular, sans-serif;
+    content: "\e008";
+    width: 35px;
+    display: inline-block;
+    height: 31px;
+    float: left;
+    margin-left: 20px;
+    background-color: #679966;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    line-height: 31px;
+}
+
+/*Global Glyph*/
+label[for="country"]:before {
+    font-family: glyphicons-halflings-regular, sans-serif;
+    content: "\e135";
+    width: 35px;
+    display: inline-block;
+    height: 31px;
+    float: left;
+    margin-left: 20px;
+    background-color: #679966;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    line-height: 31px;
+}
+
+/*Submit Button*/
+input[type="submit"] {
+    background-color: #232323;
+    border: none;
+    height: 31px;
+    width: 94%;
+    margin-left: 20px;
+    color: #CBE5E1;
+    line-height: 31px;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/*Submit hover*/
+input[type="submit"]:hover {
+    background-color: #679966;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #66AFE9;
+}
