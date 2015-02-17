@@ -11,6 +11,7 @@ body, main, section, article, ul {
 }
 
 body {
+	background-color: #F1F0E6;
     font-family: OpenSans, Helvetica, sans-serif;
     font-size: 11px;
     text-align: center;
