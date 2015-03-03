@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Glyphs;
+    src: url("../fonts/glyphicons-halflings-regular.ttf");
+}
+
+body {
+    background-image: url("../images/background.png");
+}
+
+body, h1, section, ul, h3,input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    overflow: auto;
+    width: 750px;
+    height: 320px;
+    background-color: #333333;
+    margin: 20px auto;
+}
+
+main > header {
+    background-color: #679966;
+    width: 700px;
+    margin: 25px auto 10px auto;
+}
+
+main header h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: Lobster, sans-serif;
+    color: #D7E5EE;
+}
+
+section {
+    width: 350px;
+    height: 215px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    box-sizing: border-box;
+}
+
+section.advertisement {
+    margin-left: 25px;
+    background-color: #232323;
+}
+
+section.advertisement > article {
+    height: 50%;
+}
+
+article.fire {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+article.fire:before {
+    font-family: Glyphs, sans-serif;
+    content: "\e104";
+    display: block;
+    margin: 10px 0 0 40%;
+    font-size: 4rem;
+    color: #D7E5EE;
+}
+
+article.menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+article.menu ul li:before {
+    content: "\e089";
+    font-family: Glyphs, sans-serif;
+    color: #D7E5EE;
+    margin-right: 5px;
+}
+
+article.menu ul li {
+    font-size: .8rem;
+    margin-top: 10px;
+}
+
+article.menu ul li a {
+    text-decoration: none;
+    color: #D7E5EE;
+}
+
+section.login header h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #D7E5EE;
+}
+
+section.login form input[type="submit"] {
+    margin-left: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #232323;
+    border: none;
+    cursor: pointer;
+    color: #D7E5EE;
+}
+
+section.login form input[type="submit"]:hover {
+    background-color: #679966;
+}
+
+section.login form input {
+    display: inline-block;
+    width: 260px;
+    height: 25px;
+    margin-top: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 2px 2px 0;
+    padding-left: 10px;
+}
+
+section.login form input:focus {
+    border: 1px solid #66AFE9;
+}
+
+section.login form label:before {
+    font-family: Glyphs, sans-serif;
+    display: inline-block;
+    background-color: #679966;
+    width: 30px;
+    height: 27px;
+    margin-left: 20px;
+    vertical-align: middle;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 2px 0 0 2px;
+    font-size: .8rem;
+    color: #555555;
+}
+
+section.login form label[for="username"]:before {
+    content: "\e008";
+}
+
+section.login form label[for="country"]:before {
+    font-family: Glyphs, sans-serif;
+    content: "\e135";
+}
